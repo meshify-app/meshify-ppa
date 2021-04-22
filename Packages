@@ -1,0 +1,11 @@
+Package: meshify-client
+Version: 1.0.1
+Architecture: amd64
+Maintainer: Meshify.app Inc <info@meshify.app>
+Filename: ./meshify-client_1.0-1_amd64.deb
+Size: 6194952
+MD5sum: 7998da69b49332d3105d3424640a857a
+SHA1: 8a356ccfd17888c890a863458936d9a2c3e37f91
+SHA256: e60e9e01c757b377d3f3941898dfa5155c333edc638982013eb26098e52d2d8e
+Description: Meshify-Client of debian distributions
+
