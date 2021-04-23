@@ -14,9 +14,9 @@ Version: 1.0.1
 Architecture: armhf
 Maintainer: Meshify.app Inc <info@meshify.app>
 Filename: ./meshify-client_1.0-1_armhf.deb
-Size: 5272628
-MD5sum: b78332a96bc4b391b901a967ef2723f1
-SHA1: 14210c390a0e3a754c1dc15f1becff2474f4e380
-SHA256: c7347946d81d9409186b0b5ffd2cecb1b9904047a848d29367072496d29e262e
+Size: 5272264
+MD5sum: 35f8473b62dd9d37ee653b864c406f0f
+SHA1: 16ae5cf043a7f1dd1f44b3d9153a3a22bf6d7a41
+SHA256: 54cb9ccd9605f8b705975daa838101bebeb2b0e9b47b6fa6884303afd0e7fb08
 Description: Meshify-Client of debian distributions
 
