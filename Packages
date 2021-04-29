@@ -20,3 +20,14 @@ SHA1: 16ae5cf043a7f1dd1f44b3d9153a3a22bf6d7a41
 SHA256: 54cb9ccd9605f8b705975daa838101bebeb2b0e9b47b6fa6884303afd0e7fb08
 Description: Meshify-Client of debian distributions
 
+Package: meshify-client
+Version: 1.0.2
+Architecture: armhf
+Maintainer: Meshify.app Inc <info@meshify.app>
+Filename: ./meshify-client_1.0-2_armhf.deb
+Size: 5273764
+MD5sum: 703f8173552a12e54d6b0ea67b1343d3
+SHA1: e672a3875e4e0aeb7cafe9c673b525b84ff08989
+SHA256: 3824b76781652a53e1b58e5eaa064e61f27834083e0b5c2f48d44eec4038930b
+Description: Meshify-Client of debian distributions
+
