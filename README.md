@@ -10,8 +10,21 @@ sudo apt update
 # Install meshify-client
 sudo apt install meshify-client
 
+
 # Update the config
 sudo nano /etc/meshify/meshify-client.config.json
+
+{
+    "MeshifyHost": "https://my.meshify.app",
+    "HostID": "",
+    "ApiKey": "",
+    "CheckInterval" : 10,
+    "SourceAddress" : "0.0.0.0",
+    "quiet" : true,
+    "debug" : false
+}
+Update the HostID and ApiKey from your meshify control panel for the host.
+
 
 # Enable and start the service
 sudo systemctl enable meshify
