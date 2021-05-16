@@ -12,6 +12,7 @@ sudo apt install meshify-client
 
 
 # Update the config
+sudo mkdir -p /etc/meshify
 sudo nano /etc/meshify/meshify-client.config.json
 
 {
