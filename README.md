@@ -7,6 +7,9 @@ curl -s --compressed https://meshify-app.github.io/meshify-ppa/KEY.gpg | sudo ap
 sudo curl -s --compressed -o /etc/apt/sources.list.d/meshify.list https://meshify-app.github.io/meshify-ppa/meshify.list
 sudo apt update
 
+# Install wireguard if not already installed
+sudo apt install wireguard
+
 # Install meshify-client
 sudo apt install meshify-client
 
