@@ -33,17 +33,6 @@ Description: Meshify-Client of debian distributions
 
 Package: meshify-client
 Version: 1.1.0
-Architecture: amd64
-Maintainer: Meshify.app Inc <info@meshify.app>
-Filename: ./meshify-client_1.1-0_amd64.deb
-Size: 6201056
-MD5sum: 04aae93dfe01bf467323b5c5828e5e10
-SHA1: 51ba1449d1ceef1e5e31f08e88168d57a114e300
-SHA256: 5b1310a9f9faac2dcaaba9a02a5f0620690fcbad01b610bcf85cea0848eba109
-Description: Meshify-Client of debian distributions
-
-Package: meshify-client
-Version: 1.1.0
 Architecture: armhf
 Maintainer: Meshify.app Inc <info@meshify.app>
 Filename: ./meshify-client_1.1-0_armhf.deb
@@ -54,14 +43,14 @@ SHA256: b75abdb7d8ad907548740a081273757e78cf30288922fb5fe9712041491b414d
 Description: Meshify-Client of debian distributions
 
 Package: meshify-client
-Version: 1.2.0
-Architecture: armhf
+Version: 1.1.0
+Architecture: amd64
 Maintainer: Meshify.app Inc <info@meshify.app>
-Filename: ./meshify-client_1.2-0_armhf.deb
-Size: 5674040
-MD5sum: 5835cbf379485fb8eab6c9478bc69035
-SHA1: 320d9249f891d3280afef52c9f676cf4d262928b
-SHA256: 8ecca627a5db284362db43ca6b1f5d5f9c833939d892e4668cf4241a97d414cc
+Filename: ./meshify-client_1.1-0_amd64.deb
+Size: 6201056
+MD5sum: 04aae93dfe01bf467323b5c5828e5e10
+SHA1: 51ba1449d1ceef1e5e31f08e88168d57a114e300
+SHA256: 5b1310a9f9faac2dcaaba9a02a5f0620690fcbad01b610bcf85cea0848eba109
 Description: Meshify-Client of debian distributions
 
 Package: meshify-client
@@ -73,6 +62,17 @@ Size: 6616800
 MD5sum: 279a500908c76c770c48710febc96c15
 SHA1: 5ffca60ee6631c83f0d0a36f5946b6d39a27b49e
 SHA256: 1f4180b80be1ff0823e6e5c99b833fc151e3f341715f72f6ff6a133c20927e05
+Description: Meshify-Client of debian distributions
+
+Package: meshify-client
+Version: 1.2.0
+Architecture: armhf
+Maintainer: Meshify.app Inc <info@meshify.app>
+Filename: ./meshify-client_1.2-0_armhf.deb
+Size: 5674040
+MD5sum: 5835cbf379485fb8eab6c9478bc69035
+SHA1: 320d9249f891d3280afef52c9f676cf4d262928b
+SHA256: 8ecca627a5db284362db43ca6b1f5d5f9c833939d892e4668cf4241a97d414cc
 Description: Meshify-Client of debian distributions
 
 Package: meshify-client
@@ -121,17 +121,6 @@ Description: Meshify-Client of debian distributions
 
 Package: meshify-client
 Version: 1.5.0
-Architecture: amd64
-Maintainer: Meshify.app Inc <info@meshify.app>
-Filename: ./meshify-client_1.5-0_amd64.deb
-Size: 7324520
-MD5sum: 8d9853bc875987a71463a6d600ce72f2
-SHA1: 4b50c140718f8070f87a8b662d717584abea8fba
-SHA256: 8d84af645118f4836ca7151a56086c42eed64fac3d720c33d6bfb1cff7553f9f
-Description: Meshify-Client of debian distributions
-
-Package: meshify-client
-Version: 1.5.0
 Architecture: armhf
 Maintainer: Meshify.app Inc <info@meshify.app>
 Filename: ./meshify-client_1.5-0_armhf.deb
@@ -142,14 +131,14 @@ SHA256: 1460b9351f3bbab2660e4e01dc21d0f3eaf4737bb3247ae524d6d7d75d5dcb77
 Description: Meshify-Client of debian distributions
 
 Package: meshify-client
-Version: 1.6.0
+Version: 1.5.0
 Architecture: amd64
 Maintainer: Meshify.app Inc <info@meshify.app>
-Filename: ./meshify-client_1.6-0_amd64.deb
-Size: 7320608
-MD5sum: 2cfc032b26e556292eeee33916bea7ef
-SHA1: a98177a1eeee8348029853e84455babb70f24e41
-SHA256: 0fafa677a1486a15b1a83f120d658f48197d0932358f2fc94403f62dce539333
+Filename: ./meshify-client_1.5-0_amd64.deb
+Size: 7324520
+MD5sum: 8d9853bc875987a71463a6d600ce72f2
+SHA1: 4b50c140718f8070f87a8b662d717584abea8fba
+SHA256: 8d84af645118f4836ca7151a56086c42eed64fac3d720c33d6bfb1cff7553f9f
 Description: Meshify-Client of debian distributions
 
 Package: meshify-client
@@ -161,6 +150,17 @@ Size: 6630380
 MD5sum: 362f5813a1eef63e917ce117a631e996
 SHA1: 515ba4b330420592fafb99132015bf2f39c629f3
 SHA256: bcdba049ff9080dc7203262d678cb9dc22b6840eed2891e5bb63487b5d2d7d3f
+Description: Meshify-Client of debian distributions
+
+Package: meshify-client
+Version: 1.6.0
+Architecture: amd64
+Maintainer: Meshify.app Inc <info@meshify.app>
+Filename: ./meshify-client_1.6-0_amd64.deb
+Size: 7320608
+MD5sum: 2cfc032b26e556292eeee33916bea7ef
+SHA1: a98177a1eeee8348029853e84455babb70f24e41
+SHA256: 0fafa677a1486a15b1a83f120d658f48197d0932358f2fc94403f62dce539333
 Description: Meshify-Client of debian distributions
 
 Package: meshify-client
@@ -183,6 +183,17 @@ Size: 6630588
 MD5sum: 93030070066eaca2c9f2efc9288d413a
 SHA1: c64f50f2c1216c020f8aeb67358d1635bef9189e
 SHA256: f4109db31fb062242965216c52314c8df80f8d2ad42b5da2180a1e45786a18ff
+Description: Meshify-Client of debian distributions
+
+Package: meshify-client
+Version: 1.8.0
+Architecture: amd64
+Maintainer: Meshify.app Inc <info@meshify.app>
+Filename: ./meshify-client_1.8-0_amd64.deb
+Size: 7323768
+MD5sum: d4328bacad40cb91a330dd4af72ab162
+SHA1: 293cff39a6b82cf576f2e490a7462c7bffdab9ff
+SHA256: e504b5e93b2aaa2881279e3c7d50fe4dc0a1f52f2db30a278a9a72c1c40962c0
 Description: Meshify-Client of debian distributions
 
 Package: meshify-client
