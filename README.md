@@ -33,5 +33,17 @@ Update the HostID and ApiKey from your meshify control panel for the host.
 sudo systemctl enable meshify
 sudo systemctl start meshify
 
+# Enable IP forwarding for subnet routing or VPN tunneling
+sudo nano /etc/sysctl.conf
+
+In the file, uncomment the line below to enable IP forwarding
+
+# Uncomment the next line to enable packet forwarding for IPv4
+net.ipv4.ip_forward=1
+
+Ctrl-X to save the file, then reboot the system.
+
+sudo reboot now
+
 ```
 
