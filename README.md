@@ -20,11 +20,7 @@ sudo nano /etc/meshify/meshify-client.config.json
 {
     "MeshifyHost": "https://my.meshify.app",
     "HostID": "",
-    "ApiKey": "",
-    "CheckInterval" : 10,
-    "SourceAddress" : "0.0.0.0",
-    "quiet" : true,
-    "debug" : false
+    "ApiKey": ""
 }
 Update the HostID and ApiKey from your meshify control panel for the host.
 
