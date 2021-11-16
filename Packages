@@ -91,10 +91,10 @@ Version: 1.11.0
 Architecture: armhf
 Maintainer: Meshify.app Inc <info@meshify.app>
 Filename: ./meshify-client_1.11-0_armhf.deb
-Size: 6631872
-MD5sum: f244a5a6b053054aca6873218a279f9a
-SHA1: 5723ff5e864501fba53fe777b376ce892225b761
-SHA256: 9eb8bce0e47cbce85822f743ced10b8496ef0303b77bfb2c3ed1caa895138ca7
+Size: 6653284
+MD5sum: 4cb72e82c107db17a7220227e8d36b58
+SHA1: 954ff55258e3dd432be637df7abe04ffd4d21d61
+SHA256: c17fd9b3a1f6dece03336a2d3b14099d9b876b427a62c918fdb0fcae2d1480b4
 Description: meshify-client of 32-bit ARM OS
 
 Package: meshify-client
