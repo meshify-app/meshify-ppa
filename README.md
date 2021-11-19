@@ -3,12 +3,12 @@
 You can use this repo to install the meshify-client for debian linux distros.
 
 ```shell
-curl -s --compressed https://meshify-app.github.io/meshify-ppa/KEY.gpg | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/meshify.list https://meshify-app.github.io/meshify-ppa/meshify.list
+curl -s --compressed https://ppa.meshify.app/KEY.gpg | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/meshify.list https://ppa.meshify.app/meshify.list
 sudo apt update
 
 # Install wireguard if not already installed
-sudo apt install wireguard
+sudo apt install wireguard resolvconf
 
 # Install meshify-client
 sudo apt install meshify-client
