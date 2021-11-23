@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"meshify.mesh"},{"v":2,"key":{"id":1},"name":"id_1","ns":"meshify.mesh","background":false},{"v":2,"key":{"accountid":1},"name":"accountid_1","ns":"meshify.mesh","background":false}],"uuid":"56ed92a515334175a3a3c604d76fd003"}
