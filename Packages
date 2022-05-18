@@ -339,3 +339,23 @@ SHA1: 1e57f3ef4a42572390241e04127c6edce0249b17
 SHA256: f66fabd521050952a9de962a1811fa87f71e7bef50b67c9ba23457f8ea734ea4
 Description: Meshify-Client of debian distributions
 
+Package: meshifyapp
+Version: 0.1.0
+Architecture: amd64
+Maintainer: meshify.app <info@meshify.app>
+Installed-Size: 208525
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: ./meshifyapp_0.1.0_amd64.deb
+Size: 59311946
+MD5sum: 0b78836d370d43d88ba1bf0b67930369
+SHA1: dad37ffdb4e31c5ac517b66d362ec66c676907b4
+SHA256: 86d92f540c503ff486635baed70e5bd15a03582df7245c62b714b5f5364375bf
+Section: default
+Priority: optional
+Homepage: https://github.com/meshify-app/meshify-app
+Description:
+  Unified Meshify Agent
+License: unknown
+Vendor: meshify.app <info@meshify.app>
+
