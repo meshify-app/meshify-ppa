@@ -157,10 +157,10 @@ Version: 1.13.0
 Architecture: amd64
 Maintainer: Meshify.app Inc <info@meshify.app>
 Filename: ./meshify-client_1.13-0_amd64.deb
-Size: 7559312
-MD5sum: eab7fff4f373365a69cda47c38eae4f8
-SHA1: 36f41632005ab5603f13c4a37781d8ae785b1cec
-SHA256: fe1f22a8c9613ca815c6628c659931fb336ca1f2c8a7d4036048d9d530d82b7a
+Size: 7562716
+MD5sum: d1dcf2a04b092095324bfff8c29f7d8c
+SHA1: 7f17a32bb66d754614df89b905c54eb6584af7fa
+SHA256: 53a27adb4a222aa8d7bd9d8902596951d3ed4c995c9cb5939b6e157145e2b9f3
 Description: meshify-client of debian amd64 distributions
 
 Package: meshify-client
