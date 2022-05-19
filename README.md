@@ -1,6 +1,6 @@
 ## Welcome to the Meshify PPA
 
-You can use this repo to install the meshify-client for debian linux distros.
+You can use this repo to install the meshify-client and meshifyapp for debian linux distros.
 
 ```shell
 curl -s --compressed https://ppa.meshify.app/KEY.gpg | sudo apt-key add -
@@ -13,6 +13,9 @@ sudo apt install wireguard resolvconf
 # Install meshify-client
 sudo apt install meshify-client
 
+# Install meshify agent.  It installs to the Network ("Internet") group, next to the browser.
+sudo apt install meshifyapp
+
 # Update the config
 sudo mkdir -p /etc/meshify
 sudo nano /etc/meshify/meshify-client.config.json
@@ -23,7 +26,6 @@ sudo nano /etc/meshify/meshify-client.config.json
     "ApiKey": ""
 }
 Update the HostID and ApiKey from your meshify control panel for the host.
-
 
 # Enable and start the service
 sudo systemctl enable meshify
