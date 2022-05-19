@@ -1,6 +1,6 @@
 ## Welcome to the Meshify PPA
 
-You can use this repo to install the meshify-client and meshifyapp for debian linux distros.
+You can use this repo to install the meshify-client and meshifyapp for debian linux distros.  This repo will install for meshify for amd64, arm64, and armv7l (raspberry pi) architectures.
 
 ```shell
 curl -s --compressed https://ppa.meshify.app/KEY.gpg | sudo apt-key add -
