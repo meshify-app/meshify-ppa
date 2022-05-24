@@ -49,20 +49,22 @@
     <main id="content" class="main-content" role="main">
       <h2 id="welcome-to-the-meshify-ppa">Welcome to the Meshify PPA</h2>
 
-<p>You can use this repo to install the meshify-client for debian linux distros.</p>
+<p>You can use this repo to install the meshify-client and meshifyagent for debian linux distros.  This repo will install meshify for amd64, arm64, and armv7l (raspberry pi) architectures.</p>
+<p>If you are running a linux server and no desktop, you only need to install the meshify-client and follow the instructions below.
+Resolvconf is needed for WireGuard DNS functionality.  Rdesktop enables RDP functionality in the meshify agent.<p>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-s</span> <span class="nt">--compressed</span> https://ppa.meshify.app/KEY.gpg | <span class="nb">sudo </span>apt-key add -
 <span class="nb">sudo </span>curl <span class="nt">-s</span> <span class="nt">--compressed</span> <span class="nt">-o</span> /etc/apt/sources.list.d/meshify.list https://ppa.meshify.app/meshify.list
 <span class="nb">sudo </span>apt update
 
 <span class="c"># Install wireguard if not already installed</span>
-<span class="nb">sudo </span>apt <span class="nb">install </span>wireguard
+<span class="nb">sudo </span>apt <span class="nb">install </span>wireguard resolvconf rdesktop
 
 <span class="c"># Install meshify-client</span>
 <span class="nb">sudo </span>apt <span class="nb">install </span>meshify-client
 
 <span class="c"># Update the config</span>
-<span class="nb">sudo mkdir</span> <span class="nt">-p</span> /etc/meshify
+<span class="c"># Create a host (manually) on https://my.meshify.app and grab the config settings from it</span>
 <span class="nb">sudo </span>nano /etc/meshify/meshify-client.config.json
 
 <span class="o">{</span>
@@ -70,12 +72,14 @@
     <span class="s2">"HostID"</span>: <span class="s2">""</span>,
     <span class="s2">"ApiKey"</span>: <span class="s2">""</span>
 <span class="o">}</span>
-Update the HostID and ApiKey from your meshify control panel <span class="k">for </span>the host.
-
-
+# Update the HostID and ApiKey from your meshify control panel <span class="k">for </span>the host.
 <span class="c"># Enable and start the service</span>
 <span class="nb">sudo </span>systemctl <span class="nb">enable </span>meshify
 <span class="nb">sudo </span>systemctl start meshify
+
+<span class="c"># Install meshify agent</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>meshifyagent
+<span class="nb">meshifyagent &</span>
 
 <span class="c"># Enable IP forwarding for subnet routing or VPN tunneling</span>
 <span class="nb">sudo </span>nano /etc/sysctl.conf
